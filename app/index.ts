@@ -17,7 +17,7 @@ const engine = new GenerationEngine();
 
 app.locals.engine = engine;
 
-app.use(cors({ origin: 'https://dragonstack-n73qzm56o-leonzchang.vercel.app/', credentials: true }));
+app.use(cors({ origin: 'https://dragonstack-leonzchang.vercel.app/', credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
 
